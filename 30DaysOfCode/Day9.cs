@@ -1,32 +1,32 @@
-﻿// Name : Usama Tahir
+﻿//// Name : Usama Tahir
 
-using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+//using System.IO;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace _30DaysOfCode
-{
+//namespace _30DaysOfCode
+//{
     
-    class Solution
-    {
-        static void Main(string[] args)
-        {
-            int N = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(factorial(N));
+//    class Solution
+//    {
+//        static void Main(string[] args)
+//        {
+//            int N = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(factorial(N));
 
-        }
-        static public int factorial(int n)
-        {
-            if (n <= 1)
-                return 1;
-            else
-            {
-                return n * factorial(n - 1);
-            }
-        }
+//        }
+//        static public int factorial(int n)
+//        {
+//            if (n <= 1)
+//                return 1;
+//            else
+//            {
+//                return n * factorial(n - 1);
+//            }
+//        }
 
-    }
-}
+//    }
+//}
